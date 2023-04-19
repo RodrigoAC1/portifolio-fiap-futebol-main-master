@@ -75,7 +75,7 @@ h1, h2, h3{
 }
 
 h1 {
-    font-size: 5rem;
+    font-size: clamp(3rem, 5vw, 6rem );
     margin-bottom: 1rem;
 }
 
@@ -217,4 +217,16 @@ input[type=number]{
     padding: .5rem;
     background-color: #fff;
     color: var(black);
+}
+
+@media (max-width: 900px) {
+    #secao-projetos ul{
+        flex-direction: column;
+    }
+    .large-only{
+        display: none;
+    }
+    #secao-oracamento form{
+        grid-template-columns: 1fr;
+    }
 }
