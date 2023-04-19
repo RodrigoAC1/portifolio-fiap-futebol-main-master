@@ -38,7 +38,7 @@ body{
 .linha{
     height: .5rem;
     width: 100%;
-    color: #fff;
+    background-color: #FFF;
     box-shadow: 2px 2px 2px #000;
 }
 
